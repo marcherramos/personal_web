@@ -1,23 +1,23 @@
-baseURL = "https://example.com/"
+baseURL = "https://marcherramos.github.io/"
 languageCode = "en"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
+title = "Miguel Angel Arrquero Ramos"
 theme = "hugo-initio"
 themesDir = "themes"
 
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
-    year = 2017
-    avatar = "images/guy.jpg"
+    name = "Miguel Angel Arquero Ramos"
+    description = "Senior SRE/DEVOPS"
+    email = "ma.arquero@gmail.com"
+    phone = "+34 696405334"
+    address = "General Ricardos 66 2A 28019 Madrid, Spain"
+    year = 2023
+    avatar = "images/me2.png"
     avatarclass = "circle"
     background = ""
     banner = "images/bg_head.jpg"
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
-    author = "Sergey Pozhilov (GetTemplate.com)"
+    author = "Miguel Angel Arquero Ramos"
 
     showSubheader = true
     showServices = true
@@ -35,9 +35,25 @@ themesDir = "themes"
     url = "/"
     weight = 1
 [[menu.main]]
+    name = "portfolio"
+    url = "/"
+    weight = 3
+[[menu.main]]
+    name = "Services"
+    url = "/post/"
+    weight = 4
+[[menu.main]]
     name = "blog"
     url = "/post/"
     weight = 5
+[[menu.main]]
+    name = "CV"
+    url = "/post/"
+    weight = 6
+[[menu.main]]
+    name = "References"
+    url = "/post/"
+    weight = 7
 
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
